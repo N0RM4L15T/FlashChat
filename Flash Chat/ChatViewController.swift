@@ -160,7 +160,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
             (error, reference) in
             
             if error != nil {
-                print(error)
+                print(error!)
             } else {
                 print("Message saved successfully!")
                 
